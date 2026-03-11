@@ -1,7 +1,6 @@
 # MLGEO2026_Subglacial_Lakes
 Project group classifying spatial distribution of subglacial lakes
 
-
 ## Members
 
 ### ESS 569
@@ -15,6 +14,12 @@ Cameron Boyd
 Olivia Murdock
 
 Sofia Suhinin
+
+# How to Run Our Code
+## Dependancies
+You can run this command:\\
+'pip install torch numpy pandas xarray netCDF4 matplotlib scikit-learn rioxarray rasterio cartopy pyproj'\\
+in terminal to download necessary dependancies.
 
 # Overview
 
