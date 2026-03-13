@@ -47,5 +47,4 @@ The model received the mean and standard deviation of each lake tile and the boo
 + 4.1 - Identifies null locations without lakes and visualizes the spatial distribution of the dataset
 + 5.1 - Splits the data into training, validation, and test sets and generates the boolean lake masks
 + 6.2 - Contains the first functioning iteration of our U-Net CNN
-+ 6.3 - Implements boundary weights into the 6.2 model
-+ 6.4 - Implements data augmentation and new loss functions
++ 6.3 - Implements data augmentation and new loss functions
