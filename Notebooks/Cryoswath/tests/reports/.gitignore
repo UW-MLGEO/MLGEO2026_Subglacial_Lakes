@@ -1,6 +1,0 @@
-*.pdf
-0-*.ipynb
-.snakemake/
-artifacts/
-config.ini
-data/
