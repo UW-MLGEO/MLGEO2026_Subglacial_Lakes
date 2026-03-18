@@ -53,7 +53,7 @@ At the training stage, we input our mean and standard deviation anomalies as wel
 
 The training took place over 15 epochs. Then, we used our test set to demonstrate the functionality and test the final accuracies. Final accuracies were assessed by confusion matrices and dice score, where the dice score indicates the overlap between the true lake masks and the predicted lake mask. 
 
-We attempted to improve the model with a second round of training and testing using data augmentation. Our original data set only had 73 training images and all lake-containing samples had the lakes centered in the images. We implemented data augmentation by creating patches with different flips, rotations, and cropping to increase our data set to 292 training samples. We also lowered the learning rate and combined BCE and Dice loss functions in the training.
+We attempted to improve the model with a second round of training and testing using data augmentation. Our original data set only had 73 training images and all lake-containing samples had the lakes centered in the images. We implemented data augmentation by creating patches with different flips, rotations, and cropping to increase our data set to 292 training samples. We also lowered the learning rate and combined BCE and dice loss functions in the training.
 
 ## Results
 
@@ -88,7 +88,7 @@ The model performance for round 2 was also characterized with a normalized pixel
   <figcaption> Figure 8. Normalized pixel confusion matrix for round 2 of the model. </figcaption>
 </figure>
 
-Figure 9 shows the performance of the first two rounds of models, as well as a third model that incorporated an asymmetric focal loss function that prioritized correct identification of lake pixels since they are a rare class. The strong performance of the first model relative to the other two is likely due to overfitting of our dataset. Of the other two models, the asymmetric focal loss round had the best performance in terms of Dice score, precision, and specificity. See the caption of Figure 9 for a detailed description of the model performance metrics comparison.
+Figure 9 shows the performance of the first two rounds of models, as well as a third model that incorporated an asymmetric focal loss function that prioritized correct identification of lake pixels since they are a rare class. The strong performance of the first model relative to the other two is likely due to overfitting of our dataset. Of the other two models, the asymmetric focal loss round had the best performance in terms of dice score, precision, and specificity. See the caption of Figure 9 for a detailed description of the model performance metrics comparison.
 
 <figure>
   <img src="image-7.png" alt="Description of image"style="width:100%;"/>
