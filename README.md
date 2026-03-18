@@ -48,3 +48,4 @@ The model received the mean and standard deviation of each lake tile and the boo
 + 5.1 - Splits the data into training, validation, and test sets and generates the boolean lake masks
 + 6.2 - Contains the first functioning iteration of our U-Net CNN
 + 6.3 - Implements data augmentation and new loss functions
++ 6.4 - Compares the outcomes of our 3 models
